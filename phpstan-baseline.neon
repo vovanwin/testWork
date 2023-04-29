@@ -1,0 +1,106 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method Modules\\\\CentralUsers\\\\Service\\\\User\\\\CUserService\\:\\:update\\(\\) should return bool but returns int\\.$#"
+			count: 1
+			path: Modules/CentralUsers/Service/User/CUserService.php
+
+		-
+			message: "#^PHPDoc type string of property Modules\\\\Project\\\\Database\\\\factories\\\\Client\\\\ClientFactory\\:\\:\\$model is not covariant with PHPDoc type class\\-string\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Factories\\\\Factory\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\:\\:\\$model\\.$#"
+			count: 1
+			path: Modules/Project/Database/factories/Client/ClientFactory.php
+
+		-
+			message: "#^PHPDoc type string of property Modules\\\\Project\\\\Database\\\\factories\\\\Currency\\\\CurrencyFactory\\:\\:\\$model is not covariant with PHPDoc type class\\-string\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Factories\\\\Factory\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\:\\:\\$model\\.$#"
+			count: 1
+			path: Modules/Project/Database/factories/Currency/CurrencyFactory.php
+
+		-
+			message: "#^PHPDoc type string of property Modules\\\\Project\\\\Database\\\\factories\\\\ProjectFactory\\:\\:\\$model is not covariant with PHPDoc type class\\-string\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Factories\\\\Factory\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\:\\:\\$model\\.$#"
+			count: 1
+			path: Modules/Project/Database/factories/ProjectFactory.php
+
+		-
+			message: "#^PHPDoc type string of property Modules\\\\Project\\\\Database\\\\factories\\\\ProjectIssueFactory\\:\\:\\$model is not covariant with PHPDoc type class\\-string\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Factories\\\\Factory\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\:\\:\\$model\\.$#"
+			count: 1
+			path: Modules/Project/Database/factories/ProjectIssueFactory.php
+
+		-
+			message: "#^PHPDoc type string of property Modules\\\\Project\\\\Database\\\\factories\\\\ProjectIssueTypeFactory\\:\\:\\$model is not covariant with PHPDoc type class\\-string\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Factories\\\\Factory\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\:\\:\\$model\\.$#"
+			count: 1
+			path: Modules/Project/Database/factories/ProjectIssueTypeFactory.php
+
+		-
+			message: "#^PHPDoc type string of property Modules\\\\Project\\\\Database\\\\factories\\\\ProjectSettingFactory\\:\\:\\$model is not covariant with PHPDoc type class\\-string\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Factories\\\\Factory\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\:\\:\\$model\\.$#"
+			count: 1
+			path: Modules/Project/Database/factories/ProjectSettingFactory.php
+
+		-
+			message: "#^PHPDoc type string of property Modules\\\\Project\\\\Database\\\\factories\\\\ProjectStatusFactory\\:\\:\\$model is not covariant with PHPDoc type class\\-string\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Factories\\\\Factory\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\:\\:\\$model\\.$#"
+			count: 1
+			path: Modules/Project/Database/factories/ProjectStatusFactory.php
+
+		-
+			message: "#^PHPDoc type string of property Modules\\\\Project\\\\Database\\\\factories\\\\Team\\\\TeamFactory\\:\\:\\$model is not covariant with PHPDoc type class\\-string\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Factories\\\\Factory\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\:\\:\\$model\\.$#"
+			count: 1
+			path: Modules/Project/Database/factories/Team/TeamFactory.php
+
+		-
+			message: "#^PHPDoc type string of property Modules\\\\Project\\\\Database\\\\factories\\\\Team\\\\TeamUserSalaryFactory\\:\\:\\$model is not covariant with PHPDoc type class\\-string\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Factories\\\\Factory\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\:\\:\\$model\\.$#"
+			count: 1
+			path: Modules/Project/Database/factories/Team/TeamUserSalaryFactory.php
+
+		-
+			message: "#^PHPDoc type string of property Modules\\\\Project\\\\Database\\\\factories\\\\TypeWorkFactory\\:\\:\\$model is not covariant with PHPDoc type class\\-string\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Factories\\\\Factory\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\:\\:\\$model\\.$#"
+			count: 1
+			path: Modules/Project/Database/factories/TypeWorkFactory.php
+
+		-
+			message: "#^Method Modules\\\\Project\\\\Http\\\\Controllers\\\\ProjectController\\:\\:destroy\\(\\) has invalid return type Modules\\\\Project\\\\Http\\\\Controllers\\\\Renderable\\.$#"
+			count: 1
+			path: Modules/Project/Http/Controllers/ProjectController.php
+
+		-
+			message: "#^Method Modules\\\\Project\\\\Http\\\\Controllers\\\\ProjectController\\:\\:show\\(\\) has invalid return type Modules\\\\Project\\\\Http\\\\Controllers\\\\Renderable\\.$#"
+			count: 1
+			path: Modules/Project/Http/Controllers/ProjectController.php
+
+		-
+			message: "#^Method Modules\\\\Project\\\\Http\\\\Controllers\\\\ProjectController\\:\\:store\\(\\) has invalid return type Modules\\\\Project\\\\Http\\\\Controllers\\\\Renderable\\.$#"
+			count: 1
+			path: Modules/Project/Http/Controllers/ProjectController.php
+
+		-
+			message: "#^Method Modules\\\\Project\\\\Http\\\\Controllers\\\\ProjectController\\:\\:update\\(\\) has invalid return type Modules\\\\Project\\\\Http\\\\Controllers\\\\Renderable\\.$#"
+			count: 1
+			path: Modules/Project/Http/Controllers/ProjectController.php
+
+		-
+			message: "#^PHPDoc tag @param references unknown parameter\\: \\$request$#"
+			count: 1
+			path: Modules/Project/Http/Controllers/ProjectController.php
+
+		-
+			message: "#^PHPDoc tag @return with type Modules\\\\Project\\\\Http\\\\Controllers\\\\Renderable is incompatible with native type void\\.$#"
+			count: 4
+			path: Modules/Project/Http/Controllers/ProjectController.php
+
+		-
+			message: "#^Parameter \\$request of method Modules\\\\Project\\\\Http\\\\Controllers\\\\ProjectController\\:\\:update\\(\\) has invalid type Modules\\\\Project\\\\Http\\\\Controllers\\\\Request\\.$#"
+			count: 2
+			path: Modules/Project/Http/Controllers/ProjectController.php
+
+		-
+			message: "#^Method Modules\\\\Users\\\\Service\\\\User\\\\UserService\\:\\:update\\(\\) should return bool but returns int\\.$#"
+			count: 1
+			path: Modules/Users/Service/User/UserService.php
+
+		-
+			message: "#^Property App\\\\Providers\\\\AuthServiceProvider\\:\\:\\$policies \\(array\\<class\\-string, class\\-string\\>\\) does not accept default value of type array\\<string, string\\>\\.$#"
+			count: 1
+			path: app/Providers/AuthServiceProvider.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\|Stancl\\\\Tenancy\\\\Contracts\\\\Tenant\\:\\:\\$id\\.$#"
+			count: 1
+			path: app/Providers/TenancyServiceProvider.php
